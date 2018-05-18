@@ -132,7 +132,6 @@ So I have two themes in my Theme collection. How to show them on a page? we have
 
 {% highlight html %}{% raw %}
 {% for themes in site.themes %}
-
 <a href="{{ themes.url | prepend: site.baseurl }}">
         <h2>{{ themes.title }}</h2>
 </a>
